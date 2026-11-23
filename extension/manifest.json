@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DINO: HORIZON",
+  "short_name": "Dino Horizon",
+  "version": "1.0.0",
+  "description": "The Chrome T-Rex runner, reimagined in 3D. Jump cacti, dodge cracks, run to the horizon.",
+  "author": "Muhammad Moosa Laghari",
+  "icons": {"16":"icons/icon16.png","32":"icons/icon32.png","48":"icons/icon48.png","128":"icons/icon128.png"},
+  "action": {"default_title": "Play DINO: HORIZON", "default_icon": {"16":"icons/icon16.png","32":"icons/icon32.png"}},
+  "background": {"service_worker": "background.js"},
+  "commands": {
+    "_execute_action": {"suggested_key": {"default": "Alt+Shift+D"}, "description": "Play DINO: HORIZON"}
+  },
+  "offline_enabled": true
+}

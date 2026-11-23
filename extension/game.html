@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>DINO: HORIZON — a 3D T-Rex Runner</title>
+<style>
+  html,body{margin:0;height:100%;background:#f7f7f7;overflow:hidden;font-family:"Courier New",monospace;color:#535353}
+  #wrap{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#f7f7f7;transition:filter .9s}
+  #wrap.night{filter:invert(1)}
+  canvas{image-rendering:pixelated;image-rendering:crisp-edges;width:min(100vw,177.7vh);height:min(56.25vw,100vh);touch-action:none;cursor:pointer}
+  #help{position:fixed;bottom:8px;width:100%;text-align:center;font-size:12px;opacity:.55;letter-spacing:1px;pointer-events:none}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="c" width="640" height="360"></canvas></div>
+<script src="game.js"></script>
+</body>
+</html>
